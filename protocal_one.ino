@@ -17,11 +17,6 @@ void setup() {
   Serial.begin(9600);
   myBluetooth.begin(9600);
 
-  // Add code to check Bluetooth connection
-  // ...
-
-  // Add any other setup code as needed
-}
 
 void handleCommand(String command, String payload) {
   if (command == "SET") {
